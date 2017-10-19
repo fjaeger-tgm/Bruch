@@ -1,2 +1,1 @@
-"# Bruch" 
 # Bruch

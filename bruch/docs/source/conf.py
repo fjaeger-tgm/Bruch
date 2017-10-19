@@ -21,9 +21,6 @@ import sys
 sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../../..'))
-# there were Attribute Errors occouring
-#from bruch.Bruch import *
-print("Imported: \033[34m{0}\033[0m".format(str.join("\n", sys.path)))
 
 #print(os.path.abspath("../.."))
 
@@ -58,9 +55,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Bruch'
-copyright = u'2016, Pierre Rieger'
-author = u'Pierre Rieger'
+project = u'A04 Bruch'
+copyright = u'Marvin Ertl'
+author = u'Marvin Ertl'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -129,7 +126,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'classic'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -269,8 +266,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Bruch.tex', u'Bruch Documentation',
-     u'Pierre Rieger', 'manual'),
+    (master_doc, 'A04.tex', u'Bruch Documentation',
+     u'Marvin Ertl', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
